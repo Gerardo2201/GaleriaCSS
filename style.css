@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Single day";
+    font-style: normal;
+  }
+  
+body{
+    background-image: linear-gradient(120deg, #a1c4fd60 0%, #c2e9fb65 100%), url(Imagenes/Fondo.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+.imagen {
+      height: 400px;
+      width: 350px;
+      display: flex;
+      justify-content: center;
+      transition: 0.8s;
+}
+.imagen:hover{
+  filter: drop-shadow(5px 3px 5px white);
+  transition: 0.8s;
+  transform: scale3d(0.8, 0.8, 0.8);
+}
+
+
+.contenedor {
+    display: inline-block;
+    width: 380px;
+    height: 450px;
+    padding: 10px 10px;
+    margin: 20px 20px;
+    background-color: gray;
+    border-radius: 10px;
+    object-fit: cover;
+    height: auto;
+    transition: 0.8s;
+}
+
+.contenedor:hover{
+    background-color: rgba(86, 152, 156, 0.8);
+    transition: 0.8s;
+}
+
+  
+body h1{
+    text-align: center;
+    color: rgba(46, 196, 188, 0.8);
+  }
+
+.contenedor h2{
+    text-align: center;
+    color: rgba(46, 196, 188, 0.8);
+  }
+  
+div p {
+    color: black;
+    text-align: center;
+    display: inline-block;
+  }
+
+p::first-letter {
+    font-style: bold;
+    text-transform: uppercase;
+    color: red;
+  }
